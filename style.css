@@ -9,7 +9,7 @@
 body, html {
   height: fit-content;
   font-family: 'Segoe UI', sans-serif;
-  color: white;
+  color: blue;
 }
 
 /* Background image */
@@ -111,4 +111,147 @@ copy {
 }
 html {
   scroll-behavior: smooth;
+}
+#copyright {
+  font-size: 1rem;
+  color: #812b03;margin-top: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  body {
+    background-color: #0f7043;
+    color: #fdfcfc;
+  }
+  
+  .content {
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: calc(1rem + 0.5vw);
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  body {
+    background-color: #0f7043;
+    color: #fdfcfc;
+  }
+  
+  .content {
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: calc(1rem + 0.5vw);
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: #0f7043;
+    color: #fdfcfc;
+  }
+  
+  .content {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: calc(1rem + 0.5vw);
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    background-color: #0f7043;
+    color: #fdfcfc;
+  }
+  
+  .content {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  h1 {
+    font-size: 2px;
+  }
+
+  p {
+    font-size: calc( 1rem + 0.5vw);
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1p;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+}@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .profile-img {
+    height: 100px;
+  }
+
+  nav a {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
 }
