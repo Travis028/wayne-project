@@ -129,7 +129,7 @@ html {
   
   .content {
     width: 90%;
-    padding: 20px;
+    padding: 12px;
     border-radius: 20px;
   }
 
@@ -159,7 +159,7 @@ html {
   
   .content {
     width: 80%;
-    padding: 20px;
+    padding: 12px;
     border-radius: 20px;
   }
 
@@ -189,7 +189,7 @@ html {
   
   .content {
     width: 100%;
-    padding: 20px;
+    padding: 12px;
     border-radius: 20px;
   }
 
@@ -219,7 +219,7 @@ html {
   
   .content {
     width: 100%;
-    padding: 20px;
+    padding: 12px;
     border-radius: 20px;
   }
 
@@ -254,7 +254,7 @@ html {
   }
 
   nav a {
-    padding: 100px 50px;
+    padding: 12px 50px;
     font-size: 0.9rem;
   }
 }
