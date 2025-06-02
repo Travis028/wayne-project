@@ -9,7 +9,6 @@
 body, html {
   height: fit-content;
   font-family: 'Segoe UI', sans-serif;
-  color: blue;
 }
 
 /* Background image */
@@ -19,7 +18,7 @@ body {
   align-items: center;
   flex-direction: column;
   /* Ensure the body takes full height */
-  background: rgb(1, 75, 11);
+  background: rgb(23, 24, 23);
   /* Prevent scrolling */ 
 }
 
@@ -30,14 +29,17 @@ body {
   left: 0;
   width: 100vm;
   height: 100%;
-  background: rgba(61, 248, 61, 0.6); /* dark green overlay */
+  background: rgba(0, 0, 0, 0.6); /* dark green overlay */
   z-index: 3;
 }
 
 /* Content styling */
 .content {
   background: url('wayne7.jpeg');
-  background-size: cover;
+  background-size: 100% 100%;
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -81,7 +83,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #00ff88;
+  background-color: #111111;
   color: rgb(22, 19, 19);
 }
 .id{
