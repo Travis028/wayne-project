@@ -35,7 +35,7 @@ body {
 
 /* Content styling */
 .content {
-  background: url('wayne7.jpeg');
+  background: url('wayne1.jpeg');
   background-size: 100% 100%;
   width: 80%;
   padding: 20px;
@@ -125,7 +125,7 @@ html {
 /* Responsive design */
 @media (max-width: 1200px) {
   body {
-    background-color: #0f7043;
+    background-color: #202925;
     color: #fdfcfc;
   }
   
@@ -155,7 +155,7 @@ html {
 }
 @media (max-width: 992px) {
   body {
-    background-color: #0f7043;
+    background-color: #02180e;
     color: #fdfcfc;
   }
   
@@ -185,7 +185,7 @@ html {
 }
 @media (max-width: 768px) {
   body {
-    background-color: #0f7043;
+    background-color: #1f2723;
     color: #fdfcfc;
   }
   
@@ -215,7 +215,7 @@ html {
 }
 @media (max-width: 600px) {
   body {
-    background-color: #0f7043;
+    background-color: #202523;
     color: #fdfcfc;
   }
   
